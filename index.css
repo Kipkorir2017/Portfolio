@@ -1,0 +1,223 @@
+body {
+    margin: 10px;
+    max-width: 100%;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color:brown;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position:sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    
+}
+.fa {
+    padding: 10px;
+    font-size: 16px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+    background-color: rgb(218, 218, 226);
+    color:white;
+}
+
+.fa:hover {
+    color: turquoise;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    padding: 15px;
+    color: white;
+    margin-left: 0px;
+   
+}
+
+nav ul a,
+.myname {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13pt;
+    color:white;
+}
+
+#navlist {
+    float: right;
+}
+
+#navlist a:hover {
+    color: skyblue;
+}
+
+#welcome_text {
+    font-size: 16pt;
+}
+
+#home {
+    text-align: center;
+    background-image: url('images/tech.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 70px;
+}
+
+#overlay {
+    padding-top: 120px;
+    padding-bottom: 80px;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(36, 32, 32, 0.5);
+}
+
+
+.profilePhoto {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.profilePhoto img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.intro {
+    color: white;
+    width: 60%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.intro h1 {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:red;
+}
+
+#description {
+    font-size: x-large;
+}
+
+#portfolio {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+.projects {
+    margin: auto;
+    display: flex;
+    width: 80%;
+}
+
+.project h3 {
+    color: teal;
+}
+
+.project {
+    box-shadow: 0px 0px 25px gainsboro;
+    border-radius: 4px;
+    text-align: left;
+    /* flex: 1; */
+    padding: 15px;
+    padding-bottom: 35px;
+    margin: 5px;
+    position: relative;
+}
+
+#viewLink,
+#viewLink:hover,
+#viewLink:visited {
+    color: white;
+    border: 1px solid;
+    padding: 8px;
+    text-decoration: none;
+    position: absolute;
+    padding-top: 10px;
+    font-weight: 600;
+    bottom: 8px;
+    border-radius: 5px;
+    background-color:gainsboro;
+}
+
+
+#about {
+    background-color: rgb(231, 247, 245);
+    margin-bottom: 100px;
+}
+
+#abt_indiv {
+    margin: 0 auto;
+    width: 80%;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.aboutHead {
+    width: 45%;
+    flex: 1;
+    padding-right: 10px;
+}
+
+.aboutHead p {
+    font-style:normal;
+    text-align: center;
+}
+
+.aboutContent {
+    width: 55%;
+    text-align: justify;
+    text-align: center;
+}
+
+#abt_indiv p {
+    font-size: 13pt;
+    text-align: center;
+}
+
+#abt_indiv h1,
+#portfolio h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+}
+.contact{
+    border:2px gainsboro dotted;
+    box-shadow: grey;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgb(231, 247, 245);
+
+
+}
+
+
+
+footer {
+    background-color: hsl(0, 59%, 41%);
+    box-sizing: border-box;
+    color: white;
+    padding: 20px;
+    overflow: hidden;
+    height: 80px;
+    width: 100%;
+}
+
+
